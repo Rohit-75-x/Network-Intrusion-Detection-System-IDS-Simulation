@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+
+# Database & Runtime Data
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/ids_events.db
+
+# Model Cache & Artifacts
+models/*.joblib
+models/*.pkl
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temp
+*.log
+scratch/
+.system_generated/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
